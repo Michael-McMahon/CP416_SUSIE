@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/robotB/!svn/ver/20/mobile/android/DebugRunRobot
+END
+default.properties
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/robotB/!svn/ver/5/mobile/android/DebugRunRobot/default.properties
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/robotB/!svn/ver/5/mobile/android/DebugRunRobot/.classpath
+END
+proguard.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/robotB/!svn/ver/5/mobile/android/DebugRunRobot/proguard.cfg
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/robotB/!svn/ver/5/mobile/android/DebugRunRobot/.project
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/robotB/!svn/ver/10/mobile/android/DebugRunRobot/AndroidManifest.xml
+END

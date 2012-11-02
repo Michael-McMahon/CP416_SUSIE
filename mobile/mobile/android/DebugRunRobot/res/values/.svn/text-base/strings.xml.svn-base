@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="controlForward">Forward</string>
+    <string name="controlLeft">Left Turn</string>
+    <string name="controlRight">Right Turn</string>
+    <string name="controlBack">Back</string>
+    <string name="debugReset">Reset Robot</string>
+    <string name="app_name">Robot Interface</string>
+    <string name="controlLabel">Movement Control</string>
+    <string name="debugLabel">Debug Information</string>
+    <string name="controlStop">Stop</string>
+    <string name="connectingToRobot">Attempting to connect to robot...</string>
+</resources>
