@@ -1,0 +1,169 @@
+(configure using the CSL->Header Logo admin settings)
+LoginPreferencesHelp/GuideAbout Trac
+Wiki
+Start PageIndexHistoryLast Change
+'Mike's Awesome Design Notebook
+
+5/18/2011
+
+What was accomplished: BT client is sending motor directives from button presses. Did lots of andriod app dev researching.
+
+What problems are outstanding: We need to set up the BT server to send the motor directives it's recieving. iPhone app needs to work with bonjour module.
+
+What's the next step: Finish the BT server then help get iPhone networked.
+
+5/16/2011
+
+What was accomplished: BT client can send bytes to BT server! Found a bug in Android's bt library; it won't work on an HTC evo!. Found a work around, test bytes are being sent.
+
+What problems are outstanding: We need to get our server interfaced to the motor controll module.
+
+What's the next step: Interface with motor.
+
+5/13/2011
+
+What was accomplished: BT client can find our tablet; Reaserched java's jsr082 package for bluetooth.
+
+What problems are outstanding: The BT server is not running correctly; It is written in C; we might want to make a server in java instead.
+
+What's the next step: See if a java alternative for the BT server would be quicker to develop; if not, attempt to get a connection on the C server; Perhaps attempt an insecure connection over bt...
+
+5/11/2011
+
+What was accomplished: Status updates, figured out why Android was crashing, learned about the Android debugger logcat, read more Android Bluetooth tutorial
+
+What problems are outstanding: Now we need our bluetooths to agree on a socket (and probably other values/ids) before they will talk to each other.
+
+What's the next step: Rework the modules (Android or Tablet or BOTH) until they can communicate; More tutorial reading needed! (I'm new to Android development)
+
+5/9/2011
+
+What was accomplished: Team met up and decided where to go for the next 3 weeks: Our subteams are staying put until they reach their own milestones; I may work on PC-MicroChip? signals when bluetooth is finished.
+
+Bluetooth server on tablet is running, we have now entered testing. The iPhone GUI will be our "choice" debugger, the Andriod will implement only the core functionality required for debugging (Since I will be focusing less on the android gui and more on the network aspects). Ricardo has found an Apple module for wifi connections; I will be getting this part of the iPhone app working, probably after the bluetooth componenet works.
+
+What problems are outstanding: The bluetooth module did not recognize our Android's app! This bug needs to be fixed first.
+
+On the iOS end: I will need to read the documenation for the Apple wifi module before I can code a server/client for it. Eventually: The Android's gui will need modifications for supporting a full-featured debugging interface, it may need mods for controlling engine acceration.
+
+What's the next step: Fix the bluetooth bug, read Apple documentation, decide on a seperated or combined server module for bluetooth and wifi (Is this even possible? Beneficial????)
+
+5/4/2011
+
+What was accomplished: Status update, vision test, bt mod underway.
+
+What problems are outstanding: Bt needs to be finished, mobile gui's could use polishing and maybe some upgrades.
+
+What's the next step: Finish bt module, get confirmation on iPhone adhoc connectivity
+
+5/2/2011
+
+What was accomplished: We almost got an adhoc connection from tablet to the iPhone. I got sudo privilages for the tablet!
+
+What problems are outstanding: The tablet's bt mod still needs to be written, but dev won't be in full swing again till tues afternoon (I am on an external project till then...) Also, we want to be sure we can connect the iphone over adhoc/wifi.
+
+What's the next step: Once my external project is turned in, I can get the bt communication mod developed (hopefully) quickly (by thursday?). Ricardo is going to meet with Professor Bellardo about connecting the iphone.
+
+4/29/2011
+
+What was accomplished: I elected myself to write a bluetooth communicator for the tablet.
+
+What problems are outstanding: Android dev has halted because I need to communicate with the tablet first.
+
+What's the next step: I will take the tablet this weekend and get started on the bt communication.
+
+4/27/2011
+
+What was accomplished: Helped new systems guys get the gpPoller module running, met with Ricardo.
+
+What problems are outstanding: I see lots of work to be done on Android, but not lots of free time till next week, we may want to pull in extra help...
+
+What's the next step: Android development needs to go into full gear.
+
+4/25/2011
+
+What was accomplished: SDK is setup at home, status update with Ricardo and rest of team.
+
+What problems are outstanding: We have yet to compile and run an API for iPhone bluetooth, I have lots of work to do on the Android this week.
+
+What's the next step: Set up a gui for the android.
+
+4/22/2011
+
+What was accomplished: I got an Andriod dev phone, I learned about andriod dev environments, I met with Ricardo about interfacing iPhone over bluetooth.
+
+What problems are outstanding: I need a dev environment; CSL machines don't have andriod devkit, my laptop just brokedown, so my only option is to setup the dev kit on my home desktop :(. Ricardo needs to decide how to interface the iPhone (bluetooth or wifi are two options right now), Apple provides no offical bluetooth api.
+
+What's the next step: Andriod dev kit running on desktop, get laptop repaired, get src from repo running on phone, build a gui!
+
+4/20/2011
+
+What was accomplished: Me and Ricardo have made a plan for the next 3 weeks: I will push the Android app, he will get an iOS app going. We will checkin on each other's progress weekly, we may focus on just one app if development stagnates on the other.
+
+What problems are outstanding: I will need a development phone soon, Dr. Seng is on it! We will also need to design a GUI for debugging - what features should it have?
+
+What's the next step: I will get my android development environment setup on my machine. I want to draw up design plans for the android GUI, debug rx/tx protocol, and maybe some for the iOS.
+
+4/18/2011
+
+What was accomplished: We coordinated team swapping, I am going to Mobile, others are coming to Systems. Finalized gpPoller.c, commited with sdl lib files. Discussed android to mc interfacing: sending directives + recieving debug info. Chassis was demoed! Looked really legit.
+
+What problems are outstanding: Dereck may still need help with runing code on his MC, we were not able to meet over the weekend :( so I'm not sure where he's at! I want to add some stubs to gpPoller.c so that it is easier to work on for the next guy. I need an Android phone to develop on and I need to start reading the Mobile source + designs.
+
+What's the next step: I will add the stubs since that will be quick, I need to contact Dereck and update him on whats going on, I also need an update from him on his MC progress. I will try his facebook page since he watches it so much ;)
+
+4/15/2011
+
+What was accomplished: Made it to class; I was late b/c my roommate took my car! Met with Dereck + Team A's System guys. Planned for a coding+design+interfacing session over the weekend. Met with vision about file reading issues.
+
+What problems are outstanding: We want to have our gamepad interfaced to the microcontroller's motor directives, we want to accomplish the bulk of the work on this by Monday morning. Vision needs their issue resolved.
+
+What is the next step: Dereck and I will have a big coding meeting to get our controllers interfaced. Looks like vision guys will be coming too- I am going to help them debug and test.
+
+4/13/2011
+
+What was accomplished: We did a status update: I'm now all set with interfacing the gamepad to windows/linux, I'm working with Dereck and team C's team to get our Microcontroller IDE setup.
+
+What problems are outstanding: We need to get the Microcontroller IDE up; then we can interface the gamepad to motor functions.
+
+What's the next step: I will take a crack at getting the IDE running with the microcontroller, I'll consult online docs+tutorials if problems arise, if that doesn't work we will collab with Team C once more and if they are not successful we should meet with Dr. Seng.
+
+4/11/2011
+
+What was accomplished: Finally got the development environment straightened out: UNIX + LINUX + CODE COMPOSER + VIM (OR WHATEVER IDE). Met with other Software teams; Resolved an issue with linking the SDL library. Set goals for the week: Get gamepad done very soon! Move on to motor control.
+
+What problems are outstanding: All groups are having trouble getting the microcontroller running... Dereck is more focused on this issue- I need to have a running development environment up to finish writing the gamepad code.
+
+What's the next step: I have my dev env figured out, I just need to get it all set up: just need to put gcc on my ubuntu- should be no problem. I will try to get the gamepad code out quickly so that we can be ready to debug; Dereck is working the microcontroller schmantics.
+
+What's
+
+4/8/2011
+
+What was accomplished: We got our microcontroller! Bonus was getting a C to TI-assembly compiler+IDE, it doesn't look too bad either. We also reacquired the tablet which is now running Ubuntu: Our tool chain is finally complete. We also established last night (...on Facebook) that Jim will be dropping this course :(. But it's cool, me and Dereck got this on lock down! (Or we may pull help from other teams later)
+
+What problems are outstanding: We need more research on our shiny new microcontroller; how do we interface from C source to intructions to the motor?
+
+What's the next step: We will have fully functional code for reading from the gamepad using sdl by tonight, the next step after that is interfacing this module with the microcontroller! (See outstanding problems)
+
+4/6/2011
+
+What was accomplished: Updated status with team. Determined that we are using the Arroyo board. Planned for the day: I will take on the gamepad, Dereck has the microcontroller. Discussed debug message protocol with android team. Set up meeting in csl tomorrow at 2:30pm.
+
+What problems are outstanding: Where's Jim? He hasn't been showing up so we may have lost one programmer... Jim has our tablet!
+
+What's the next step: Gamepad development needs to start right away. System's guys: I'm starting a google group:  http://groups.google.com/group/416-exclusive-systems-software
+
+4/4/2011
+
+What was accomplished: Talked with Dereck (Jim was nowhere to be found... :( ), coordinated a plan for the day.
+
+What problems are outstanding: Systems software guys: we need to collaborate and organize a combined effort:
+
+What's the next step: Here's my email: mike005403--AT--gmail.com OR mamcmaho--AT--calpoly.edu. Let's find a time to meet in the csl or library!
+
+Download in other formats:
+Plain Text
+Trac Powered Powered by Trac 0.11.5
+By Edgewall Software. Visit the Trac open source project at
+http://trac.edgewall.org/
